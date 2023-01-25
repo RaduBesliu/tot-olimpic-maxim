@@ -1,0 +1,106 @@
+OBLIGATORII
+1.
+This is a program calculates the minimum total distance to connect a set of generators to a set of blocks in a network.
+The program reads the number of generators and blocks from the input file "retea2.in" and writes the minimum total distance to the output file "retea2.out".
+The program first reads the coordinates of the generators and blocks from the input file and stores them in the vectors "centrale" and "blocuri".
+It then calculates the minimum Euclidean distance from each block to a generator and stores these distances in the vector "distanta".
+Next, the program uses the "visited" vector to keep track of which blocks have been connected to a generator.
+It repeatedly finds the block with the minimum distance to a generator that has not been visited and updates the minimum distances from each block to this newly connected block.
+This process continues until all blocks have been visited.
+Finally, the program writes the minimum total distance to the output file, using fixed-point notation with 6 decimal places.
+
+2.
+This is a program that uses disjoint sets to implement a network of connected components.
+The program reads the number of elements and the number of operations from the input file "disjoint.in" and writes the result of each operation to the output file "disjoint.out".
+The program uses the vector "parent" to store the parent of each element.
+The vector is initialized such that each element is the parent of itself, indicating that each element is in a separate connected component.
+The program then reads the operations from the input file and performs them one by one. If the operation is of type 1,
+the program sets the parent of the second element to be the same as the parent of the first element, thus connecting the two elements in the same connected component.
+If the operation is of type 2, the program checks if the first and second elements have the same root (i.e., are in the same connected component) and writes "DA" to the output file if they are, or "NU" otherwise.
+The program uses the "getRoot()" function to find the root (i.e., the parent) of a given element. This function uses recursion to traverse the tree of parents until it reaches the root of the element.
+
+3.
+This is a program that clusters a given set of words into k clusters such that the maximum Levenshtein distance between words in different clusters is minimized.
+The program reads the value of k and the words from the input file "cuvinte.in" and writes the maximum Levenshtein distance between words in different clusters to the output file "cuvinte.out".
+The program first reads the value of k and the words from the input file and stores them in the vector "cuvinte".
+It then uses the "levenshteinDistance()" function to calculate the Levenshtein distance between each pair of words and stores these distances in the vector of tuples "cuvintePerechi".
+Next, the program sorts the "cuvintePerechi" vector in ascending order of the Levenshtein distance between the words in each tuple.
+It then uses the "clusterCuvant" map to assign each word to a cluster and iteratively merges the k-1 smallest clusters in the "cuvintePerechi" vector until k clusters remain.
+Finally, the program uses the "clusterCuvant" map to find the maximum Levenshtein distance between words in different clusters and writes this distance to the output file.
+It also writes the words in each cluster to the output file.
+
+4.
+This is a class that implements the Dijkstra algorithm to find the maximum probability of reaching a given end node from a given start node in a directed graph.
+The class has a single method "maxProbability()" that takes the number of nodes, a list of edges, a list of success probabilities for each edge,
+the start node, and the end node as input and returns the maximum probability of reaching the end node from the start node.
+The "maxProbability()" method first constructs an adjacency list representation of the given graph. It then initializes the distance of each node to -1 and the priority queue used by the Dijkstra algorithm.
+It sets the distance of the start node to 1 and adds it to the priority queue.
+The method then repeatedly extracts the node with the smallest distance from the priority queue and updates the distances of the nodes adjacent to it.
+If the distance of an adjacent node can be increased by taking the edge to it, the method updates the distance of the adjacent node and adds it to the priority queue.
+The method continues until the priority queue is empty.
+Finally, the method returns the distance of the end node from the start node. If the end node is not reachable from the start node, the method returns 0.
+The method rounds the final probability to the nearest 5 decimal places to avoid floating point precision errors.
+
+5.
+The program reads the number of nodes, the number of edges,
+and the number of forts in the Catun from the input file "catun.in" and writes the fort closest to each node in the Catun to the output file "catun.out".
+The program first reads the input from the input file and initializes the vectors "closestFort" and "dist" to store the closest fort to each node and the distance from each node to the closest fort, respectively.
+It then adds the forts to the priority queue used by the Dijkstra algorithm with a distance of 0.
+Next, the program runs the Dijkstra algorithm using the "dijkstra()" function.
+This function repeatedly extracts the node with the smallest distance from the priority queue and updates the distances of the nodes adjacent to it.
+If the distance of an adjacent node can be increased by taking the edge to it, the function updates the distance of the adjacent node and adds it to the priority queue.
+The function also updates the closest fort to each node and continues until the priority queue is empty.
+Finally, the program writes the closest fort to each node to the output file. If a node is a fort, the program writes 0 as the closest fort to that node.
+
+6.
+The code is a solution to a problem that involves finding the maximum sum of a path in a directed acyclic graph (DAG) from a starting node to any other node in the graph.
+The input to the problem consists of the number of test cases t, followed by t sets of data, each containing the number of nodes n and the number of edges m in the graph,
+followed by n lines containing the values of the nodes, and m lines containing the pairs of nodes that each edge connects.
+The output of the solution should be t lines containing the maximum sum of a path in each test case.
+The code first performs a topological sort of the input graph, and then uses the sorted order to compute the sums of the paths starting from each node.
+For each node in the topological order, the sum of the path starting at the node is updated to be the maximum of the current sum and the sum of the path starting at each of the node's parents plus the value of the node.
+After all paths have been computed, the maximum sum among all paths is determined and printed for each test case.
+
+
+
+SUPLIMENTARE
+1.
+The Solution class has a minCostConnectPoints method that calculates the minimum cost required to connect a given set of points in a 2D space using a minimum spanning tree (MST) approach.
+The method first converts the input points into pairs of int values and stores them in a vector called vPoints.
+It then calls the mstWeightSum helper method, passing in the number of points n and the vector of points vPoints.
+The mstWeightSum method begins by initializing a few variables and a visited vector to keep track of the nodes that have been visited during the traversal.
+It then pushes the first point in the vector onto a priority queue, which will be used to keep track of the shortest distances to the unvisited points.
+Next, the method enters a loop where it continually pops the node with the smallest distance from the priority queue and updates the total sum, visited nodes, and the current node being considered.
+It also pushes the distances to all unvisited points from the current node onto the priority queue. The loop continues until all nodes have been visited or the priority queue is empty.
+Finally, the mstWeightSum method returns the total sum of distances calculated during the traversal, and the minCostConnectPoints method returns this value as the result.
+
+2.
+The Solution class has a distanceLimitedPathsExist method that determines whether there exists a path between two given nodes in a graph that is within a given distance limit.
+The method first sorts the input edge list and the queries by the distance value in ascending order.
+It then initializes an ans vector to store the results of the queries, and a DisjointSet object to track the connected components in the graph.
+Next, the method enters a loop where it processes each query in order. For each query, it finds the parent of each node using the DisjointSet object, and checks if the two nodes are in the same connected component.
+If they are not, it then continues to process the remaining edges in the edge list until it finds an edge with a distance value that is greater than or equal to the query's distance limit.
+If such an edge is found, it unions the two nodes connected by that edge using the DisjointSet object, and updates the ans vector to indicate that a path within the distance limit exists between the two nodes in the query.
+Finally, the distanceLimitedPathsExist method returns the ans vector as the result.
+The time complexity of this code is O(q log q + m log q), where q is the number of queries and m is the number of edges.
+This is because sorting the queries and the edges has a time complexity of O(q log q + m log q), and the main loop has a time complexity of O(q + m) because it iterates through the queries and the edges once each.
+
+4.
+The code is a solution to a problem that involves finding the minimum distance between two nodes in a graph that is within a given limit.
+The input to the problem consists of the number of nodes n, the number of edges m, and the number of queries q, followed by m lines containing the two nodes and the distance between them that each edge connects,
+and q lines containing the two nodes for each query. The output of the solution should be q lines containing the minimum distance between the two nodes in each query that is within the given limit,
+or -1 if no such distance exists.
+The code uses Prim's algorithm to find the minimum spanning tree (MST) of the input graph, and then processes the queries in order.
+For each query, it checks if the two nodes in the query are in the same connected component in the MST, and if they are not,
+it searches for the edge with the smallest distance in the MST that connects the connected components containing the two nodes.
+If such an edge is found, the distance value is stored as the result for the query, and the two nodes connected by the edge are unioned. If no such edge is found, -1 is stored as the result for the query.
+After all queries have been processed, the code prints the results for each query.
+
+7.
+The Solution class has a findCheapestPrice method that finds the minimum cost of a flight route between a source and a destination node in a graph with a given maximum number of stops.
+The method first creates an adjacency list representation of the input graph using the flight data.
+It then initializes a priority queue and pushes the starting node onto the queue with a distance of 0 and a number of stops of 0.
+Next, the method enters a loop where it continually pops the node with the smallest distance from the priority queue and updates the distance and number of stops for each adjacent node.
+If the updated distance is smaller than the current distance in the distance vector and the number of stops is within the allowed limit, the node is pushed onto the queue.
+Finally, the findCheapestPrice method returns the distance to the destination node from the distance vector.
+If the distance is the maximum integer value, it means that no path to the destination within the given number of stops was found, and -1 is returned instead.

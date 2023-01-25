@@ -1,0 +1,280 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: algoritmi_fundamentali
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/radu/materiale-facultate/An$ 2$ -$ Sem$ 1/algoritmi$ fundamentali/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target algoritmi_fundamentali
+
+
+#############################################
+# Order-only phony target for algoritmi_fundamentali
+
+build cmake_object_order_depends_target_algoritmi_fundamentali: phony || CMakeFiles/algoritmi_fundamentali.dir
+
+build CMakeFiles/algoritmi_fundamentali.dir/main.cpp.o: CXX_COMPILER__algoritmi_fundamentali_Debug /Users/radu/materiale-facultate/An$ 2$ -$ Sem$ 1/algoritmi$ fundamentali/main.cpp || cmake_object_order_depends_target_algoritmi_fundamentali
+  DEP_FILE = CMakeFiles/algoritmi_fundamentali.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/algoritmi_fundamentali.dir
+  OBJECT_FILE_DIR = CMakeFiles/algoritmi_fundamentali.dir
+
+build CMakeFiles/algoritmi_fundamentali.dir/tema_1/main2.cpp.o: CXX_COMPILER__algoritmi_fundamentali_Debug /Users/radu/materiale-facultate/An$ 2$ -$ Sem$ 1/algoritmi$ fundamentali/tema_1/main2.cpp || cmake_object_order_depends_target_algoritmi_fundamentali
+  DEP_FILE = CMakeFiles/algoritmi_fundamentali.dir/tema_1/main2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/algoritmi_fundamentali.dir
+  OBJECT_FILE_DIR = CMakeFiles/algoritmi_fundamentali.dir/tema_1
+
+build CMakeFiles/algoritmi_fundamentali.dir/tema_1/Besliu_Radu-Stefan_1_obligatoriu_1.cpp.o: CXX_COMPILER__algoritmi_fundamentali_Debug /Users/radu/materiale-facultate/An$ 2$ -$ Sem$ 1/algoritmi$ fundamentali/tema_1/Besliu_Radu-Stefan_1_obligatoriu_1.cpp || cmake_object_order_depends_target_algoritmi_fundamentali
+  DEP_FILE = CMakeFiles/algoritmi_fundamentali.dir/tema_1/Besliu_Radu-Stefan_1_obligatoriu_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/algoritmi_fundamentali.dir
+  OBJECT_FILE_DIR = CMakeFiles/algoritmi_fundamentali.dir/tema_1
+
+build CMakeFiles/algoritmi_fundamentali.dir/tema_1/Besliu_Radu-Stefan_1_obligatoriu_2.cpp.o: CXX_COMPILER__algoritmi_fundamentali_Debug /Users/radu/materiale-facultate/An$ 2$ -$ Sem$ 1/algoritmi$ fundamentali/tema_1/Besliu_Radu-Stefan_1_obligatoriu_2.cpp || cmake_object_order_depends_target_algoritmi_fundamentali
+  DEP_FILE = CMakeFiles/algoritmi_fundamentali.dir/tema_1/Besliu_Radu-Stefan_1_obligatoriu_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/algoritmi_fundamentali.dir
+  OBJECT_FILE_DIR = CMakeFiles/algoritmi_fundamentali.dir/tema_1
+
+build CMakeFiles/algoritmi_fundamentali.dir/tema_1/Besliu_Radu-Stefan_1_obligatoriu_3.cpp.o: CXX_COMPILER__algoritmi_fundamentali_Debug /Users/radu/materiale-facultate/An$ 2$ -$ Sem$ 1/algoritmi$ fundamentali/tema_1/Besliu_Radu-Stefan_1_obligatoriu_3.cpp || cmake_object_order_depends_target_algoritmi_fundamentali
+  DEP_FILE = CMakeFiles/algoritmi_fundamentali.dir/tema_1/Besliu_Radu-Stefan_1_obligatoriu_3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/algoritmi_fundamentali.dir
+  OBJECT_FILE_DIR = CMakeFiles/algoritmi_fundamentali.dir/tema_1
+
+build CMakeFiles/algoritmi_fundamentali.dir/tema_1/Besliu_Radu-Stefan_1_obligatoriu_4.cpp.o: CXX_COMPILER__algoritmi_fundamentali_Debug /Users/radu/materiale-facultate/An$ 2$ -$ Sem$ 1/algoritmi$ fundamentali/tema_1/Besliu_Radu-Stefan_1_obligatoriu_4.cpp || cmake_object_order_depends_target_algoritmi_fundamentali
+  DEP_FILE = CMakeFiles/algoritmi_fundamentali.dir/tema_1/Besliu_Radu-Stefan_1_obligatoriu_4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/algoritmi_fundamentali.dir
+  OBJECT_FILE_DIR = CMakeFiles/algoritmi_fundamentali.dir/tema_1
+
+build CMakeFiles/algoritmi_fundamentali.dir/tema_1/Besliu_Radu-Stefan_1_obligatoriu_5.cpp.o: CXX_COMPILER__algoritmi_fundamentali_Debug /Users/radu/materiale-facultate/An$ 2$ -$ Sem$ 1/algoritmi$ fundamentali/tema_1/Besliu_Radu-Stefan_1_obligatoriu_5.cpp || cmake_object_order_depends_target_algoritmi_fundamentali
+  DEP_FILE = CMakeFiles/algoritmi_fundamentali.dir/tema_1/Besliu_Radu-Stefan_1_obligatoriu_5.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/algoritmi_fundamentali.dir
+  OBJECT_FILE_DIR = CMakeFiles/algoritmi_fundamentali.dir/tema_1
+
+build CMakeFiles/algoritmi_fundamentali.dir/tema_1/Besliu_Radu-Stefan_1_suplimentar_5.cpp.o: CXX_COMPILER__algoritmi_fundamentali_Debug /Users/radu/materiale-facultate/An$ 2$ -$ Sem$ 1/algoritmi$ fundamentali/tema_1/Besliu_Radu-Stefan_1_suplimentar_5.cpp || cmake_object_order_depends_target_algoritmi_fundamentali
+  DEP_FILE = CMakeFiles/algoritmi_fundamentali.dir/tema_1/Besliu_Radu-Stefan_1_suplimentar_5.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/algoritmi_fundamentali.dir
+  OBJECT_FILE_DIR = CMakeFiles/algoritmi_fundamentali.dir/tema_1
+
+build CMakeFiles/algoritmi_fundamentali.dir/tema_1/Besliu_Radu-Stefan_1_suplimentar_1.cpp.o: CXX_COMPILER__algoritmi_fundamentali_Debug /Users/radu/materiale-facultate/An$ 2$ -$ Sem$ 1/algoritmi$ fundamentali/tema_1/Besliu_Radu-Stefan_1_suplimentar_1.cpp || cmake_object_order_depends_target_algoritmi_fundamentali
+  DEP_FILE = CMakeFiles/algoritmi_fundamentali.dir/tema_1/Besliu_Radu-Stefan_1_suplimentar_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/algoritmi_fundamentali.dir
+  OBJECT_FILE_DIR = CMakeFiles/algoritmi_fundamentali.dir/tema_1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target algoritmi_fundamentali
+
+
+#############################################
+# Link the executable algoritmi_fundamentali
+
+build algoritmi_fundamentali: CXX_EXECUTABLE_LINKER__algoritmi_fundamentali_Debug CMakeFiles/algoritmi_fundamentali.dir/main.cpp.o CMakeFiles/algoritmi_fundamentali.dir/tema_1/main2.cpp.o CMakeFiles/algoritmi_fundamentali.dir/tema_1/Besliu_Radu-Stefan_1_obligatoriu_1.cpp.o CMakeFiles/algoritmi_fundamentali.dir/tema_1/Besliu_Radu-Stefan_1_obligatoriu_2.cpp.o CMakeFiles/algoritmi_fundamentali.dir/tema_1/Besliu_Radu-Stefan_1_obligatoriu_3.cpp.o CMakeFiles/algoritmi_fundamentali.dir/tema_1/Besliu_Radu-Stefan_1_obligatoriu_4.cpp.o CMakeFiles/algoritmi_fundamentali.dir/tema_1/Besliu_Radu-Stefan_1_obligatoriu_5.cpp.o CMakeFiles/algoritmi_fundamentali.dir/tema_1/Besliu_Radu-Stefan_1_suplimentar_5.cpp.o CMakeFiles/algoritmi_fundamentali.dir/tema_1/Besliu_Radu-Stefan_1_suplimentar_1.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/algoritmi_fundamentali.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = algoritmi_fundamentali
+  TARGET_PDB = algoritmi_fundamentali.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target main.cpp
+
+
+#############################################
+# Order-only phony target for main.cpp
+
+build cmake_object_order_depends_target_main.cpp: phony || CMakeFiles/main.cpp.dir
+
+build CMakeFiles/main.cpp.dir/tema_1/main.cpp.o: CXX_COMPILER__main.2ecpp_Debug /Users/radu/materiale-facultate/An$ 2$ -$ Sem$ 1/algoritmi$ fundamentali/tema_1/main.cpp || cmake_object_order_depends_target_main.cpp
+  DEP_FILE = CMakeFiles/main.cpp.dir/tema_1/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/main.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/main.cpp.dir/tema_1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main.cpp
+
+
+#############################################
+# Link the executable main.cpp
+
+build main.cpp: CXX_EXECUTABLE_LINKER__main.2ecpp_Debug CMakeFiles/main.cpp.dir/tema_1/main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/main.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = main.cpp
+  TARGET_PDB = main.cpp.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab3.cpp
+
+
+#############################################
+# Order-only phony target for lab3.cpp
+
+build cmake_object_order_depends_target_lab3.cpp: phony || CMakeFiles/lab3.cpp.dir
+
+build CMakeFiles/lab3.cpp.dir/lab_3/lab3.cpp.o: CXX_COMPILER__lab3.2ecpp_Debug /Users/radu/materiale-facultate/An$ 2$ -$ Sem$ 1/algoritmi$ fundamentali/lab_3/lab3.cpp || cmake_object_order_depends_target_lab3.cpp
+  DEP_FILE = CMakeFiles/lab3.cpp.dir/lab_3/lab3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/lab3.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab3.cpp.dir/lab_3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab3.cpp
+
+
+#############################################
+# Link the executable lab3.cpp
+
+build lab3.cpp: CXX_EXECUTABLE_LINKER__lab3.2ecpp_Debug CMakeFiles/lab3.cpp.dir/lab_3/lab3.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/lab3.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lab3.cpp
+  TARGET_PDB = lab3.cpp.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target tema_3.cpp
+
+
+#############################################
+# Order-only phony target for tema_3.cpp
+
+build cmake_object_order_depends_target_tema_3.cpp: phony || CMakeFiles/tema_3.cpp.dir
+
+build CMakeFiles/tema_3.cpp.dir/tema_3/tema_3.cpp.o: CXX_COMPILER__tema_3.2ecpp_Debug /Users/radu/materiale-facultate/An$ 2$ -$ Sem$ 1/algoritmi$ fundamentali/tema_3/tema_3.cpp || cmake_object_order_depends_target_tema_3.cpp
+  DEP_FILE = CMakeFiles/tema_3.cpp.dir/tema_3/tema_3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/tema_3.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/tema_3.cpp.dir/tema_3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target tema_3.cpp
+
+
+#############################################
+# Link the executable tema_3.cpp
+
+build tema_3.cpp: CXX_EXECUTABLE_LINKER__tema_3.2ecpp_Debug CMakeFiles/tema_3.cpp.dir/tema_3/tema_3.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/tema_3.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tema_3.cpp
+  TARGET_PDB = tema_3.cpp.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/radu/materiale-facultate/An 2 - Sem 1/algoritmi fundamentali/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/radu/materiale-facultate/An 2 - Sem 1/algoritmi fundamentali/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/radu/materiale-facultate/An 2 - Sem 1/algoritmi fundamentali" -B"/Users/radu/materiale-facultate/An 2 - Sem 1/algoritmi fundamentali/cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/radu/materiale-facultate/An 2 - Sem 1/algoritmi fundamentali/cmake-build-debug
+
+build all: phony algoritmi_fundamentali main.cpp lab3.cpp tema_3.cpp
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/radu/materiale-facultate/An$ 2$ -$ Sem$ 1/algoritmi$ fundamentali/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/radu/materiale-facultate/An$ 2$ -$ Sem$ 1/algoritmi$ fundamentali/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

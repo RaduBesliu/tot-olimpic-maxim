@@ -1,0 +1,65 @@
+// Time Complexity: O(V + E)
+// Solution: Perform a BFS on every component of the graph. If we find an edge between 2 nodes marked with the same color,
+// the graph is not bipartite.
+
+class Solution {
+public:
+    bool colorGraph(int& n, int& start, list < int >* adjList) {
+        vector < int > nodeState(n+1, 0);
+        queue < int > q;
+        bool allVisited = false;
+        
+        while (!allVisited) {
+            // 3 possible states: -1 white, 0 not visited, 1 black
+            nodeState[start] = -1;
+            q.push(start);
+
+            while(!q.empty()) {
+                int firstInQueue = q.front();
+                q.pop();
+
+                for (auto const& adjNode: adjList[firstInQueue]) {
+                    if (!nodeState[adjNode]) {
+                        nodeState[adjNode] = -nodeState[firstInQueue];
+                        q.push(adjNode);
+                    } else {
+                        for (auto const& adjN: adjList[adjNode]) {
+                            if (nodeState[adjNode] == nodeState[adjN]) {
+                                return false;
+                            }
+                        }
+                    }
+                }
+            }
+            
+            // check for unvisited components of the graph             
+            int foundNotVisited = false;
+            for (int i = 1; i <= n && !foundNotVisited; ++i) {
+                if (!nodeState[i]) {
+                    start = i;
+                    foundNotVisited = true;
+                }
+            }
+            
+            if (!foundNotVisited) {
+                allVisited = true;
+            }
+        }
+        
+        return true;
+    }
+    
+    bool possibleBipartition(int n, vector<vector<int>>& dislikes) {
+        list < int >* adjList;
+        adjList = new list < int > [n+1];
+        
+        for (auto const& vert: dislikes) {
+            adjList[vert[0]].push_back(vert[1]);
+            adjList[vert[1]].push_back(vert[0]);
+        }
+        
+        int start = 1;
+        
+        return colorGraph(n, start, adjList);
+    }
+};

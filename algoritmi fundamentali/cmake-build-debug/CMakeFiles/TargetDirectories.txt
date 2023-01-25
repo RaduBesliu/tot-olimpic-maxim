@@ -1,0 +1,6 @@
+/Users/radu/materiale-facultate/An 2 - Sem 1/algoritmi fundamentali/cmake-build-debug/CMakeFiles/algoritmi_fundamentali.dir
+/Users/radu/materiale-facultate/An 2 - Sem 1/algoritmi fundamentali/cmake-build-debug/CMakeFiles/main.cpp.dir
+/Users/radu/materiale-facultate/An 2 - Sem 1/algoritmi fundamentali/cmake-build-debug/CMakeFiles/lab3.cpp.dir
+/Users/radu/materiale-facultate/An 2 - Sem 1/algoritmi fundamentali/cmake-build-debug/CMakeFiles/tema_3.cpp.dir
+/Users/radu/materiale-facultate/An 2 - Sem 1/algoritmi fundamentali/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/radu/materiale-facultate/An 2 - Sem 1/algoritmi fundamentali/cmake-build-debug/CMakeFiles/rebuild_cache.dir

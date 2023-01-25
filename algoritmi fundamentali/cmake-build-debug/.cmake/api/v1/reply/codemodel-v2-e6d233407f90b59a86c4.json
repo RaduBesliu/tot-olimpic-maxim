@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "algoritmi_fundamentali",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "algoritmi_fundamentali::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algoritmi_fundamentali-Debug-5fb912a129b149d0e588.json",
+					"name" : "algoritmi_fundamentali",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab3.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab3.cpp-Debug-2718b7837d57de60a7fd.json",
+					"name" : "lab3.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main.cpp-Debug-57749ed915ddd71d7eb8.json",
+					"name" : "main.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tema_3.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tema_3.cpp-Debug-fc510555a68f50add6fd.json",
+					"name" : "tema_3.cpp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/radu/materiale-facultate/An 2 - Sem 1/algoritmi fundamentali/cmake-build-debug",
+		"source" : "/Users/radu/materiale-facultate/An 2 - Sem 1/algoritmi fundamentali"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

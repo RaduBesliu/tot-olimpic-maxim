@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="algoritmi_fundamentali" targetName="main.cpp" />
+      <config projectName="algoritmi_fundamentali" targetName="algoritmi_fundamentali" />
+      <config projectName="algoritmi_fundamentali" targetName="tema_3.cpp" />
+      <config projectName="algoritmi_fundamentali" targetName="lab3.cpp" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1744ed6a-2912-4d7c-9e27-400382f7ffe5" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="2.4" />
+  </component>
+  <component name="ProjectId" id="2G8qHOr1ihjqQBeRmLKQLb6Jyti" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/radu/materiale-facultate/An 2 - Sem 1/algoritmi fundamentali/tema_3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tema_3" />
+      <recent name="$PROJECT_DIR$/tema_1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.tema_3.cpp">
+    <configuration name="algoritmi_fundamentali" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algoritmi_fundamentali" TARGET_NAME="algoritmi_fundamentali" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algoritmi_fundamentali" RUN_TARGET_NAME="algoritmi_fundamentali">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab3.cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algoritmi_fundamentali" TARGET_NAME="lab3.cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algoritmi_fundamentali" RUN_TARGET_NAME="lab3.cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algoritmi_fundamentali" TARGET_NAME="main.cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algoritmi_fundamentali" RUN_TARGET_NAME="main.cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tema_3.cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algoritmi_fundamentali" TARGET_NAME="tema_3.cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algoritmi_fundamentali" RUN_TARGET_NAME="tema_3.cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.algoritmi_fundamentali" />
+      <item itemvalue="CMake Application.lab3.cpp" />
+      <item itemvalue="CMake Application.main.cpp" />
+      <item itemvalue="CMake Application.tema_3.cpp" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1744ed6a-2912-4d7c-9e27-400382f7ffe5" name="Changes" comment="" />
+      <created>1665780469354</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665780469354</updated>
+      <workItem from="1665780470502" duration="119000" />
+      <workItem from="1666119965562" duration="1384000" />
+      <workItem from="1666121761263" duration="22000" />
+      <workItem from="1666121791162" duration="394000" />
+      <workItem from="1666191650555" duration="15000" />
+      <workItem from="1666198894260" duration="8459000" />
+      <workItem from="1666249476802" duration="735000" />
+      <workItem from="1666376889856" duration="2904000" />
+      <workItem from="1666456593530" duration="4907000" />
+      <workItem from="1666525074215" duration="292000" />
+      <workItem from="1666541892820" duration="723000" />
+      <workItem from="1666598609405" duration="19000" />
+      <workItem from="1667047826561" duration="4061000" />
+      <workItem from="1667215879309" duration="18000" />
+      <workItem from="1667334799542" duration="853000" />
+      <workItem from="1667375754485" duration="36000" />
+      <workItem from="1667462773804" duration="2292000" />
+      <workItem from="1667565287825" duration="18121000" />
+      <workItem from="1667656344004" duration="2558000" />
+      <workItem from="1667759080335" duration="1056000" />
+      <workItem from="1668081314016" duration="131000" />
+      <workItem from="1668261380047" duration="899000" />
+      <workItem from="1668335301697" duration="3453000" />
+      <workItem from="1668450786723" duration="244000" />
+      <workItem from="1668852702701" duration="9000000" />
+      <workItem from="1668883556710" duration="694000" />
+      <workItem from="1668956980031" duration="420000" />
+      <workItem from="1669054628359" duration="26000" />
+      <workItem from="1669199513420" duration="246000" />
+      <workItem from="1669212995836" duration="2000" />
+      <workItem from="1669225806028" duration="599000" />
+      <workItem from="1669233769579" duration="46000" />
+      <workItem from="1669398046093" duration="5544000" />
+      <workItem from="1671023029903" duration="60000" />
+      <workItem from="1671023138532" duration="2548000" />
+      <workItem from="1671043975420" duration="2633000" />
+      <workItem from="1671046692162" duration="6000" />
+      <workItem from="1671046927375" duration="68000" />
+      <workItem from="1671091166852" duration="6325000" />
+      <workItem from="1672225165815" duration="5000" />
+      <workItem from="1672661562350" duration="49000" />
+      <workItem from="1672661617176" duration="6068000" />
+      <workItem from="1672690478067" duration="207000" />
+      <workItem from="1672748859020" duration="139000" />
+      <workItem from="1672749007074" duration="6061000" />
+      <workItem from="1672766098346" duration="598000" />
+      <workItem from="1672768900643" duration="492000" />
+      <workItem from="1672771032183" duration="2718000" />
+      <workItem from="1672856362326" duration="4287000" />
+      <workItem from="1672916916221" duration="15000" />
+      <workItem from="1672917971196" duration="192000" />
+      <workItem from="1672936235787" duration="768000" />
+      <workItem from="1672941476461" duration="2287000" />
+      <workItem from="1673179884352" duration="5712000" />
+      <workItem from="1673197356638" duration="138000" />
+      <workItem from="1673204588263" duration="4670000" />
+      <workItem from="1673440726260" duration="829000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
