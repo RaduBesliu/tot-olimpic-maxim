@@ -6,6 +6,8 @@ C++ FORTA
 <br>
 https://github.com/MihaiMilitaru/Algoritmi-Fundamentali
 <br>
++ ce am pus eu folderu ala amarat vai de capu lui
+<br>
 <br>
 PYTHON :(
 <br>
